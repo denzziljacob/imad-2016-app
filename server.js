@@ -6,11 +6,22 @@ var app = express();
 app.use(morgan('combined'));
 
 
-
+var articleOne ={title:'Article One/denzzil jacob',
+                 heading:'Article One',
+                 date:'October 10',
+                 content:'
+<p>
+    This is the content for my first article.So far looks ok though eats a considerable time of mine.But Nevertheless lets see. This is the content for my first article.So far looks ok though eats a considerable time of mine.But Nevertheless lets see. This is the content for my first article.So far looks ok though eats a considerable time of mine.But Nevertheless lets see.
+    </p>
+     <p>
+    This is the content for my first article.So far looks ok though eats a considerable time of mine.But Nevertheless lets see. This is the content for my first article.So far looks ok though eats a considerable time of mine.But Nevertheless lets see. This is the content for my first article.So far looks ok though eats a considerable time of mine.But Nevertheless lets see.
+    </p>
+     <p>
+    This is the content for my first article.So far looks ok though eats a considerable time of mine.But Nevertheless lets see. This is the content for my first article.So far looks ok though eats a considerable time of mine.But Nevertheless lets see. This is the content for my first article.So far looks ok though eats a considerable time of mine.But Nevertheless lets see.
+    </p>}; 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-
 app.get('/article-one', function (req, res){
 res.sendFile(path.join(__dirname, 'ui', 'article-one.html')); });
 
