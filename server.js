@@ -13,13 +13,12 @@ var articles={
 This is the content for my first article.So far looks ok though eats a considerable time of mine.But Nevertheless lets see.
 </p>.`},
 'article-two':{
-    {title:'Article Two/denzzil jacob',
+title:'Article Two/denzzil jacob',
 heading:'Article Two',
 date:'October 10',
 content:`<p>
 This is the content for my first article.So far looks ok though eats a considerable time of mine.But Nevertheless lets see.
-</p>.`}
-;},
+</p>.`},
 'article-three':{
     {title:'Article Three/denzzil jacob',
 heading:'Article Three',
@@ -27,6 +26,7 @@ date:'October 10',
 content:`<p>
 This is the content for my first article.So far looks ok though eats a considerable time of mine.But Nevertheless lets see.
 </p>.`} ;}
+    
 };
 
 function createTemplate (data){
