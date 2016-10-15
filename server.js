@@ -10,9 +10,7 @@ var articles={
  date:'October 10',
  content:`<p>
 This is the content for my first article.So far looks ok though eats a considerable time of mine.But Nevertheless lets see.
-</p>`.`<p>
-This is the content for my first article.So far looks ok though eats a considerable time of mine.But Nevertheless lets see.
-</p>.
+</p>.`},
 'article-two':{
 title:'Article Two/denzzil jacob',
 heading:'Article Two',
