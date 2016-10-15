@@ -20,12 +20,12 @@ content:`<p>
 This is the content for my first article.So far looks ok though eats a considerable time of mine.But Nevertheless lets see.
 </p>.`},
 'article-three':{
-    {title:'Article Three/denzzil jacob',
+   title:'Article Three/denzzil jacob',
 heading:'Article Three',
 date:'October 10',
 content:`<p>
 This is the content for my first article.So far looks ok though eats a considerable time of mine.But Nevertheless lets see.
-</p>.`} ;}
+</p>.`}} ;}
     
 };
 
