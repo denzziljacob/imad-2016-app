@@ -24,8 +24,7 @@ heading:'Article Three',
 date:'October 10',
 content:`<p>
 This is the content for my third article.</p>.`}
-    
-} ;
+    } ;
 function createTemplate (data){
     var title=data.title;
     var date=data.date;
@@ -60,7 +59,7 @@ return htmlTemplate;}
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-app.get('/articleName',function (req, res){
+app.get('/:articleName',function (req, res){
     //articleName==article-one
 //articles(articleName)=={}content object for article-one
 var articleName = req.params.articleName;
