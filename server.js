@@ -17,18 +17,16 @@ title:'Article Two/denzzil jacob',
 heading:'Article Two',
 date:'October 10',
 content:`<p>
-This is the content for my first article.So far looks ok though eats a considerable time of mine.But Nevertheless lets see.
+This is the content for my second article.
 </p>.`},
 'article-three':{
    title:'Article Three/denzzil jacob',
 heading:'Article Three',
 date:'October 10',
 content:`<p>
-This is the content for my first article.So far looks ok though eats a considerable time of mine.But Nevertheless lets see.
-</p>.`}} ;}
+This is the content for my third article.</p>.`}
     
-};
-
+} ;
 function createTemplate (data){
     var title=data.title;
     var date=data.date;
