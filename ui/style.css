@@ -16,12 +16,12 @@ margin-top:120px;
 
 .img-medium{
     height:200px;
-    margin:0 auto;
+    
 }
 .container{
 max-width:800px;
 margin:0 auto;
-color:rgb(231, 236, 234);
+color:red;
 background-color:blue;
 font-family:sans-serif;
 padding-right:100px;
