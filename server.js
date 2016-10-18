@@ -24,7 +24,7 @@ heading:'Article Three',
 date:'October 10',
 content:`<p>
 This is the content for my third article.</p>.`}
-    } ;
+    } ;          
 function createTemplate (data){
     var title=data.title;
     var date=data.date;
